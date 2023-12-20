@@ -3,13 +3,25 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-criar-pensamento',
   templateUrl: './criar-pensamento.component.html',
-  styleUrls: ['./criar-pensamento.component.css']
+  styleUrls: ['./criar-pensamento.component.css'],
 })
 export class CriarPensamentoComponent implements OnInit {
+  pensamento = {
+    id: '1',
+    conteudo: 'Aprendendo Angular',
+    autoria: 'Dev',
+    modelo: 'modelo1',
+  };
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  criarPensamento() {
+    alert('Novo pensamento criado');
   }
 
+  cancelar() {
+    throw new Error('Method not implemented.');
+  }
 }
