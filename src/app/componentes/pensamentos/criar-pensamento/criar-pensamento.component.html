@@ -21,7 +21,7 @@
       placeholder="Digite a autoria ou fonte"
       [(ngModel)]="pensamento.autoria"
     />
-    <label for="modelo">Selecione o modelo do card:</label>
+    <span>Selecione o modelo do card:</span>
     <div class="container-radio">
       <div class="radio-modelo">
         <label for="modelo1">
@@ -101,7 +101,7 @@
     </div>
     <div class="acoes">
       <button (click)="criarPensamento()" class="botao">Salvar</button>
-      <button (click)="cancelar()" class="botao">Cancelar</button>
+      <button routerLink="/listarPensamento" class="botao">Cancelar</button>
     </div>
   </form>
 </section>
