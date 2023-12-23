@@ -1,16 +1,10 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Na minha máquina funciona.",
-      "autoria": "Desconhecido",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
       "conteudo": "No desafio que crescemos",
-      "autoria": "André",
-      "modelo": "modelo2"
+      "autoria": "André Guimarães",
+      "modelo": "modelo3"
     },
     {
       "id": 3,
@@ -19,21 +13,15 @@
       "modelo": "modelo3"
     },
     {
-      "conteudo": "Acho que não vai funcionar",
-      "autoria": "André",
-      "modelo": "modelo2",
-      "id": 4
-    },
-    {
       "conteudo": "Se você falha em planejar, está planejando falhar.",
-      "autoria": "Will Smith",
-      "modelo": "modelo3",
+      "autoria": "Filme do Will Smith",
+      "modelo": "modelo1",
       "id": 5
     },
     {
-      "conteudo": "Ser preguiçoso da mais trabalho do que ser esforçado.",
-      "autoria": "eu",
-      "modelo": "modelo1",
+      "conteudo": "Ser preguiçoso da mais trabalho do que ser esforçado!",
+      "autoria": "A vida",
+      "modelo": "modelo2",
       "id": 6
     }
   ]
